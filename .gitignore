@@ -1,0 +1,27 @@
+# Dependencies (if using Node.js)
+node_modules/
+
+# Environment files
+.env
+.env.local
+
+# Connection strings (sensitive data)
+connection-string.txt
+config.js
+
+# MongoDB local data (if running locally)
+data/
+mongodb/
+
+# Logs
+*.log
+logs/
+
+# OS files
+.DS_Store
+Thumbs.db
+
+# IDE files
+.vscode/
+.idea/
+*.swp
